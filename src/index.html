@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<h3>Perfect Temperature</h3>
+<p>Scientifically tested serving temperature for optimal flavor release</p>
+</div>
+</div>
+</section>
+
+<!-- Recipe Preview -->
+<section id="recipe" class="recipe">
+    <div class="recipe-content">
+        <div class="recipe-text">
+            <h2>Crafted for Comfort</h2>
+            <p>Our signature hot cocoa recipe combines rare single-origin cacao with premium Madagascar vanilla and a
+                touch of Himalayan salt. This luxurious blend delivers not just warmth, but a moment of pure indulgence.
+                Rich in antioxidants and mood-enhancing compounds, each sip provides both comfort and wellness. Perfect
+                for those cozy winter evenings when only the finest will do.</p>
+            <div class="calculator">
+                <h3>Serving Calculator</h3>
+                <div class="calculator-controls">
+                    <button class="btn-calc" onclick="updateServings(-1)">-</button>
+                    <span id="servings">2 servings</span>
+                    <button class="btn-calc" onclick="updateServings(1)">+</button>
+                </div>
+                <div class="ingredients" id="ingredients">
+                    <p>• 4oz premium dark chocolate</p>
+                    <p>• 16oz whole milk</p>
+                    <p>• 0.5tsp Madagascar vanilla</p>
+                    <p>• 0.25tsp Himalayan salt</p>
+                </div>
+            </div>
+        </div>
+        <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&q=80"
+                alt="Luxurious hot chocolate">
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <h2>Unlock the Secrets of Perfect Hot Cocoa</h2>
+    <p>Download our free recipe eBook featuring exclusive variations and expert tips for creating the perfect cup every
+        time.</p>
+    <form id="email-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m22 2-7 20-4-9-9-4Z" />
+                    <path d="M22 2 11 13" />
+                </svg>
+                Send
+            </button>
+        </div>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+
+</html>
